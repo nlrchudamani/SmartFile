@@ -1,0 +1,54 @@
+{
+    "name": "nlrchudamani/smartfile",
+    "description": "A wrapper package for Smartfile API",
+    "keywords": [
+        "nlrchudamani",
+        "smartfile"
+    ],
+    "homepage": "https://github.com/nlrchudamani/smartfile",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "N L Ramachandrachudamani",
+            "email": "sagarmani1986@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nlrchudamani\\SmartFile\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nlrchudamani\\SmartFile\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nlrchudamani\\SmartFile\\SmartFileServiceProvider"
+            ],
+            "aliases": {
+                "SmartFile": "Nlrchudamani\\SmartFile\\SmartFileFacade"
+            }
+        }
+    }
+}
