@@ -1,8 +1,11 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nlrchudamani/smartfile.svg?style=flat-square)](https://packagist.org/packages/nlrchudamani/smartfile)
+<!--
+
 [![Build Status](https://img.shields.io/travis/nlrchudamani/smartfile/master.svg?style=flat-square)](https://travis-ci.org/nlrchudamani/smartfile)
 [![Quality Score](https://img.shields.io/scrutinizer/g/nlrchudamani/smartfile.svg?style=flat-square)](https://scrutinizer-ci.com/g/nlrchudamani/smartfile)
+-->
 [![Total Downloads](https://img.shields.io/packagist/dt/nlrchudamani/smartfile.svg?style=flat-square)](https://packagist.org/packages/nlrchudamani/smartfile)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
